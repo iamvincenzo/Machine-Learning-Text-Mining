@@ -22,6 +22,7 @@ I passi del text mining sono i seguenti:
  Dopodichè si effettua quella che è la tokenizzazione e vettorizzazione:
  
   i. Tokenizzazione: tutte le frasi del dataset contengono parole. Tutte queste parole (senza ripetizioni) vengono inserite in un vettore. Prendono il nome di token.
+  
   ii. Vettorizzazione: si crea una matrice di array. Questa matrice ha tante righe quante sono le istanze nel dataset. Ogni frase del dataset viene confrontata con i token. Se       il token è presente nella frase allora si mette un 1 nel vettore dentro la matrice altrimenti uno 0. La lunghezza dei vettori all'interno della matrice è pari alla             lunghezza del vettore che contiene i token.
   
 Per la text-analysis si sfrutta l'algoritmo Bayesiano: probabilità che una certa parola P sia presente in un certo documento D data la classe C.
