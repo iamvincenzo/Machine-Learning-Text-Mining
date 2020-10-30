@@ -25,7 +25,7 @@ In questa stagione è bello camminare anche sotto le stelle,PRIMAVERA
 # you can also write the dataset in a excel file saved as ".csv"
 # you can use the read_csv method to transform the dataset in a structured way
 
-data = pd.read_csv("phrases_dataset.csv", sep=",") # venv\Lib\site-packages\sklearn\datasets\data\dataset_frasi.csv
+data = pd.read_csv("phrases_dataset.csv", sep=",")
 
 print("\nDATASET: ")
 print(data)
